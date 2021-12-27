@@ -23,7 +23,7 @@ app.use(express.static('website'));
 
 // Setup Server
 const port = 8001;
-const server = app.listen(port, listening);
+const server = app.listen(process.env.PORT || port, listening);
 function listening(){
     console.log('the server is running');
     console.log(`running on localhost http://127.0.0.1:${port}`)
