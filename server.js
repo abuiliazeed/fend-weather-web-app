@@ -1,5 +1,6 @@
 // Setup empty JS object to act as endpoint for all routes
 projectData = {};
+const apiKey = 'f72063edaa945717be8af75412558d92&units=imperial';
 
 // Require Express to run server and routes
 const express = require ('express');
