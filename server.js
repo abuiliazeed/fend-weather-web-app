@@ -23,7 +23,7 @@ app.use(express.static('website'));
 
 
 // Setup Server
-const port = 8013;
+const port = 8015;
 // Notice that i added process.env.PORT with or Port in order for this code to work on Heroku
 const server = app.listen(process.env.PORT || port, listening);
 function listening(){
@@ -49,7 +49,7 @@ const getData = (req, res) => {
     projectData = newWeather;
     res.status(200).send({
       success: true,
-      message: "All good, thanks for visiting :*",
+      message: "success all data retrieved successfully",
       data: newWeather,
     });
   };

@@ -1,6 +1,6 @@
 /* Global Variables */
 const apiKey = 'f72063edaa945717be8af75412558d92';
-const baseURL = `http://api.openweathermap.org/data/2.5/forecast?id=524901&units=metric`;
+const baseURL = `https://api.openweathermap.org/data/2.5/forecast?id=524901&units=metric`;
 
 // Create a new date instance dynamically with JS
 let d = new Date();
