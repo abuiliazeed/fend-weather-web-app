@@ -22,7 +22,7 @@
 
 ## Demo
 - Heroku Staging Demo [Link](https://staging-weather-app-abu.herokuapp.com/) 
-- Heroku Production Demo [Link](https://prod-weath-app-abu.herokuapp.com/) 
+- Heroku Production Demo [Link](https://production-weather-app-abu.herokuapp.com/) 
 
 ## Usage
 - download the repo as a zip or clone it using git clone https://github.com/abuiliazeed/fend-weather-web-app.git
